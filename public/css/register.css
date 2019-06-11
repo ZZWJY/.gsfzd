@@ -1,0 +1,37 @@
+.content{
+    width:100%;
+    min-width:787px;
+}
+.register{
+    height:25px;
+    width:25px;
+    border:1px solid #000;
+    border-radius:50%;
+    margin:0 auto;
+    color:#000;
+}
+.register-line{
+    border-bottom:1px dashed #000;
+    height:1rem;
+}
+.register-visib{
+    display:inline-block;
+    width:15%;
+    height:3.5rem;
+    background-color:#eee;
+    line-height:3.5rem;
+    border:1px solid #aaa;
+
+}
+.register-inp{
+    height:3.5rem;
+    outline:0;
+    padding:3px 16px;
+}
+.wid-35{
+    width:35%;
+}
+.register-login{
+    height:3.5rem;
+    width:65%;
+}

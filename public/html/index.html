@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/comm.css"/>
+    <link rel="stylesheet" href="../css/index.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <!-- 头部的创建-->
+   <header>
+       <div class='header-top '>
+           <p class="header-top-content width">
+               <span>欢迎来到贵上房官网</span>
+               <span class="header-t-s1">上海</span>
+               <span >切换城市</span>
+               <span class="header-t-s2">下载app</span>
+               <a href="" class="header-t-a">登录</a>
+               /<a href="" class="header-t-a">注册</a>
+               <span class="header-t-s3">咨询热线：400-0052-533</span>
+           </p>
+       </div>
+       <!-- 上半部分头部-->
+       <div class="header-bar width" id="tests">
+           <span class="bar-span" onclick="document.getElementsByClassName('header-bar')[0].style.display='none'">&times;</span>
+           <span class="bar-span" id="span1">展开</span>
+       </div>
+       <!-- 查询部分-->
+       <div  class="header-search width">
+           <div>
+               <img src="../img/index/log.png" alt="" style="height:64px"/>
+           </div>
+           <div class="header-search-content">
+               <div class="header-search-icon">
+                   <img src="../img/index/icon1.png" alt=""/>
+               </div>
+               <input type="text" placeholder="请输入楼盘名称或者区域" class="header-search-inp"/><button class="header-search-btn">搜索</button>
+               <div class="header-search-nav"><a href="">嘉定</a><a href="">宝山</a><a href="">青浦</a><a href="">虹口</a><a href="">松江</a><a
+                        href="">徐汇</a></div>
+           </div>
+       </div>
+   </header>
+   <!-- 创建导航栏-->
+    <nav>
+        <div class="nav-content ">
+            <ul class="nav-t width">
+                <li><a href="index.html"  class="opacity-5">首页</a></li>
+                <li><a href="newhuose.html">新房直卖</a></li>
+                <li><a href="used.html">二手房</a></li>
+                <li><a href="used.html">诚信联盟</a></li>
+                <li><a href="">视频中心</a></li>
+                <li><a href="newslist.html">新闻资讯</a></li>
+                <li><a href="">关于我们</a></li>
+                <li><a href="">优惠券</a></li>
+                <div class="nav-right">
+                    <img src="../img/index/jl1.png" alt=""/>
+                    <a href="">登录</a>
+                    <a href="">注册</a>
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <!-- 内容部分-->
+   <aside>
+       <div class="aside-carousel width">
+           <img src="../img/index/zuo.jpg" alt=""/><img src="../img/index/carousel-1.jpg" alt=""/><img src="../img/index/slogan-2.png" alt=""/>
+       </div>
+       <!-- 品牌部分-->
+       <div class="discount width">
+           <!-- 品牌标题-->
+           <div class="aside-discount ">
+               <div class="discount-align">
+                   <span class="discount-span"></span>
+                   <div class="discount-content">
+                       <h3 style="font-weight:800">品牌特推</h3>
+                       <p style="margin-bottom:0;font-weight:600">高额5折返佣，买房省辆车</p>
+                   </div>
+                   <span class="discount-span"></span>
+               </div>
+           </div>
+           <!-- 品牌图集-->
+            <div class="discount-img width">
+                <a href=""><img src="../img/index/brand-1-270-216.png" alt=""/></a>
+                <a href=""><img src="../img/index/brand-2-292-216.png" alt=""/></a>
+                <a href=""><img src="../img/index/brand-3-292-216.jpg" alt=""/></a>
+                <a href=""><img src="../img/index/brand-4-292-216.png" alt=""/></a>
+            </div>
+       </div>
+       <div class="reat width">
+           <div class="aside-reat ">
+               <div class="reat-align">
+                   <span class="reat-span"></span>
+                   <div class="reat-content">
+                       <h3 style="font-weight:800">热度排行榜</h3>
+                       <p style="margin-bottom:0;font-weight:600">热销楼盘，为您精挑细选</p>
+                   </div>
+                   <span class="reat-span"></span>
+               </div>
+           </div>
+           <!-- 热度图集-->
+           <div class="reat-img">
+               <span><a href="">正荣国领</a></span>
+               <span><a href="">绿地壹号街</a></span>
+               <span><a href="">三林信城MO+</a></span>
+               <span><a href="">朱家角一号</a></span>
+           </div>
+       </div>
+       <div class="product width">
+           <!--精品项目-->
+           <div class="aside-product ">
+               <div class="product-align">
+                   <span class="product-span"></span>
+                   <div class="product-content">
+                       <h3 style="font-weight:800">精品项目</h3>
+                       <p style="margin-bottom:0;font-weight:600">品牌开发商，买房更放心</p>
+                   </div>
+                   <span class="product-span"></span>
+               </div>
+           </div>
+           <div class="product-img">
+               <div>
+                   <img src="../img/index/product-1-229-264.png" alt=""/>
+                   <p>新城虹口金茂府</p>
+                   <p>上海繁华市中心，高端住宅，尽享奢华。</p>
+                   <p>100000元/m²</p>
+                   <span></span>
+               </div>
+               <div>
+                   <img src="../img/index/product-2-229-264.png" alt=""/>
+                   <p>东外滩一号</p>
+                   <p> 1.内环旁稀缺一手新房全城发售。 2.双面临江不可复制，360度无敌江景。 3.轨交地铁一线之隔。 4.超宽楼栋距，最宽处达到100米。 5.坐拥国际时尚中心，时代城市奥特莱斯，国际广场。 6.低总价高品质，黄浦江畔仅此一处。</p>
+                   <p>85000元/m²</p>
+                   <span></span>
+               </div>
+               <div>
+                   <img src="../img/index/product-3-229-264.png" alt=""/>
+                   <p>上海长滩 </p>
+                   <p>1，世界级商业巨头上港集团与宝山区政府联合打造的滨江住宅项目。 2，三号线地铁一刻钟 。 3，国际游轮旅游业上海最大的游艇码头可停靠270艘60英尺以下的游艇。4，淞宝成熟社区 70万固定消费人口。  5，三大主题公园碧水公园10万方、瀑布公园33000方（上海最大人造瀑布公园）以及坡地公园37000方。6，世界第三大巨幕球体IMAX影院（中国首家）。  7，总高180米的观光塔定海神针。 8，千人水晶音乐厅奏响华彩乐章  （上海第二大音乐厅仅次于上海大剧院）。9，长1.8公里的滨江大道、吸取了外滩与徐汇滨江的经验所造，耗资8个亿比外滩还要长（外滩1.5公里）。</p>
+                   <p>55000元/m²</p>
+                   <span></span>
+               </div>
+               <div>
+                   <img src="../img/index/product-4-229-264.png" alt=""/>
+                   <p>佘山一品</p>
+                   <p>1.价值洼地：超低的单价总价，15年的备案价格买18年的现房，买到即赚到！ 2.稀缺区位：位于佘山旅游度假区内，正佘山板块，是真正的城市别墅项目！ 3.未来潜力：距离虹桥枢纽仅18公里，虹桥商务区未来导入110万高端办公人群，未来巨大住宅消费需求支撑房价上升。</p>
+                   <p>35500元/m²</p>
+                   <span></span>
+               </div>
+           </div>
+       </div>
+       <div class="bantu">
+           <a href="" class="bantu-a"></a>
+       </div>
+       <div class="newhome width">
+           <!--新房直卖-->
+           <div class="aside-newhome ">
+               <div class="newhome-align">
+                   <span class="newhome-span"></span>
+                   <div class="newhome-content">
+                       <h3 style="font-weight:800">新房直卖</h3>
+                       <p style="margin-bottom:0;font-weight:600">开发商直卖，买房真的可以这样省钱</p>
+                   </div>
+                   <span class="newhome-span"></span>
+               </div>
+               <a href="" class="cat">查看更多>></a>
+           </div>
+           <div class="newhome-img">
+               <div>
+                   <img src="../img/index/newhome-1-229-264.png" alt=""/>
+                   <p>旭辉嘉樾府</p>
+                   <p>人车分流，环沪优选，品牌开发商 </p>
+                   <p>19000元/m²</p>
+                   <span></span>
+               </div>
+               <div>
+                   <img src="../img/index/newhome-2-229-264.png" alt=""/>
+                   <p>家喻五洲•尚苑</p>
+                   <p>现代美式风情</p>
+                   <p>57000元/m²</p>
+                   <span></span>
+               </div>
+               <div>
+                   <img src="../img/index/newhome-3-229-264.png" alt=""/>
+                   <p>绿地中心•柏源晶舍 </p>
+                   <p>青浦绿地中心是绿地综合体项目的高端产品系，其包括1幢180米的高层办公楼，还有约50000㎡自持的shoppingmall等；青浦绿地中心的住宅区总占地面积约13332㎡，总体建筑面积约44499㎡，项目仅规划6栋住宅，共242户，绿化率约35%，栋间距达到50米左右。车位比1：1.13。社区设计采用全人车分流，很大限度的保证社区景观的美观与业主的安全；建筑风格采用法式对称排列，社区内还设有羽毛球场、儿童游戏区等。</p>
+                   <p>39000元/m²</p>
+                   <span></span>
+               </div>
+               <div>
+                   <img src="../img/index/newhome-4-229-264.png" alt=""/>
+                   <p>融创·海上桃源</p>
+                   <p>项目地处崇明岛西北部，有陈海公路交通顺畅。崇明岛主打绿色生态，周边商业差一点要到镇上，1公里处有医院。未来地铁沿线都在规划中，而且不限购。岛上有三大湿地公园，空气清新绿化程度高。小区里格局大气，主要都是叠加别墅和合院，容积率低，环境优雅，物业服务有档次。</p>
+                   <p>25000元/m²</p>
+                   <span></span>
+               </div>
+           </div>
+       </div>
+       <div class="agent width">
+           <!--新房直卖-->
+           <div class="aside-agent ">
+               <div class="agent-align">
+                   <span class="agent-span"></span>
+                   <div class="agent-content">
+                       <h3 style="font-weight:800">中介精推</h3>
+                       <p style="margin-bottom:0;font-weight:600">专业、高效、精准</p>
+                   </div>
+                   <span class="agent-span"></span>
+               </div>
+               <a href="" class="cat">查看更多>></a>
+           </div>
+           <div class="agent-img">
+               <div>
+                   <img src="../img/index/agent-1-229-264.png" alt=""/>
+                   <p>华江景城</p>
+                   <p>小区 </p>
+                   <p>580万</p>
+                   <span></span>
+               </div>
+               <div>
+                   <img src="../img/index/agent-2-229-264.jpg" alt=""/>
+                   <p>爱ME城市</p>
+                   <p> 属紧凑实用平层产品
+                       2. 南向面宽充足，采光良好</p>
+                   <p>145万</p>
+                   <span></span>
+               </div>
+               <div>
+                   <img src="../img/index/agent-3-229-264.jpg" alt=""/>
+                   <p>嘉城新航域 </p>
+                   <p>位于嘉定江桥沃尔玛，947、950终点站。14号地铁口不行10分钟
+                       小区在江桥属于品质小区</p>
+                   <p>400万</p>
+                   <span></span>
+               </div>
+               <div>
+                   <img src="../img/index/agent-4-229-264.jpg" alt=""/>
+                   <p>真光五街坊</p>
+                   <p>在铜川路高陵路路口，14号地铁口零距离。</p>
+                   <p>258万</p>
+                   <span></span>
+               </div>
+           </div>
+       </div>
+       <!-- 购房流程-->
+       <div class="houseflow width">
+           <a href=""></a>
+       </div>
+       <!-- 特惠新房-->
+       <div class="sale width">
+           <div class="aside-sale ">
+               <div class="sale-align">
+                   <span class="sale-span"></span>
+                   <div class="sale-content">
+                       <h3 style="font-weight:800">特惠好房</h3>
+                       <p style="margin-bottom:0;font-weight:600">让您买房更省钱</p>
+                   </div>
+                   <span class="sale-span"></span>
+               </div>
+           </div>
+           <div class="">
+               <div class="sale-top-1">
+                   <div class="sale-1-img">
+                       <img src="../img/index/sale-1-600-412.jpg" alt=""/>
+                   </div>
+                   <div class="sale-1-content">
+                       <p style="font-weight:bold;font-size:1.5rem;">百灵时尚天地</p>
+                       <img src="../img/index/sale-bg-1.jpg" alt="" style="margin:17px 0 17px -47px"/>
+                       <p style="font-weight:bold;color:#f00;font-size:1.5rem;">11000元/m²</p>
+                       <p style="text-indent: 2rem;">
+                           项目介绍：
+
+                           百灵时尚天地项目是云岩区政府重点项目，位于贵阳市繁华商业中心，是贵阳市中心城区为数不多的超高层建筑，也是市中心地标性建筑之一！百灵时尚天地总占地3798㎡，总建筑面积67815㎡，项目一共40层，总高166.7米，是由地下2层停车场、地上商业及酒店组建而成。
+
+
+
+                           基本信息：
+
+                           楼盘名称：百灵时尚天地
+
+                           楼盘地址：贵州省贵阳市云岩区瑞金路77号
+
+                           装修标准：
+
+                           开发商：......                    </p>
+                   </div>
+               </div>
+               <div class="sale-top-2">
+                   <div class="sale-2-content">
+                       <p style="font-weight:bold;font-size:1.5rem;">大唐高鸿·悠活公园</p>
+                       <img src="../img/index/sale-bg-1.jpg" alt="" style="margin:17px 0 17px -47px"/>
+                       <p style="font-weight:bold;color:#f00;font-size:1.5rem;">10000元/m²</p>
+                       <p style="text-indent: 2rem;">
+                           项目介绍：
+                           悠活公园项目总规划10.1万㎡，商业面积40000㎡，由4栋悠客LOFT公寓、1.8万㎡block潮流运动街区、2.2万㎡大型购物中心、1万频密主题景观广场及约2万㎡城市绿轴公园组成。项目作为花溪区首个面世的商业综合体项目，致力于以运动、社交、创意为DNA，打造都市时尚生活体验的商业中心，为区域打造一座时尚生活城，提供购物、餐饮、娱乐、运动、儿童等全方位的一站式服务，创建全新的体验......                    </p>
+                   </div>
+                   <div class="sale-2-img">
+                       <img src="../img/index/sale-bg-2.jpg" alt=""/>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <div class="news width">
+           <div class="aside-news ">
+               <div class="news-align">
+                   <span class="news-span"></span>
+                   <div class="news-content">
+                       <h3 style="font-weight:800">新闻专栏</h3>
+                       <p style="margin-bottom:0;font-weight:600">房产知识，贵上房深度解读</p>
+                   </div>
+                   <span class="news-span"></span>
+               </div>
+           </div>
+           <div class="news-list">
+               <a href="" class="new-1">
+                   <div class="news-1-img">
+                       <img src="../img/index/news-1-168-120.jpg" alt=""/>
+                   </div>
+                   <div class="news-1-content">
+                       <p>北京新房拟强上保险，对购房者而言，到底是利还是弊？专家这样说</p>
+                       <p>最近，“北京新房拟强制上保险”一事，引发了众多网友的热议。在生活中，人生险、车险、物流险等都是司空见惯的，但现在买房竟然也能上保险，还真是一件稀奇的事情。其实买新房确实有很多令人担忧的质量问题，例如房......</p>
+                   </div>
+
+               </a>
+               <a href="" class="new-1">
+                   <div class="news-1-img">
+                       <img src="../img/index/news-2-168-120.jpg" alt=""/>
+                   </div>
+                   <div class="news-1-content">
+                       <p>多套房的人注意了，未来房产走势须警惕</p>
+                       <p>对于普通购房者最关心的问题是什么？无外乎房价是涨是跌？到底什么时候可以出手买房？毕竟房价关乎每个人的命运：没买房的人盼着房价快点下跌，这样手里不多的首付款才能买得起一套房子，而多套房的人则盼着房价能够......</p>
+                   </div>
+
+               </a>
+               <a href="" class="new-1">
+                   <div class="news-1-img">
+                       <img src="../img/index/news-3-168-120.png" alt=""/>
+                   </div>
+                   <div class="news-1-content">
+                       <p>楼市热抬头须警惕 稳房价有三大关键点</p>
+                       <p>有近半年时间，关于“房住不炒”的表述未出现在中央政治局会议中，叠加去年年底以来各地微调的房地产调控政策，市场上也随之出现了一些“调控放松”的声音。不过，4月19日召开的中央政治局会议再次强调“房住......</p>
+                   </div>
+
+               </a>
+               <a href="" class="new-1">
+                   <div class="news-1-img">
+                       <img src="../img/index/news-4-168-120.jpg" alt=""/>
+                   </div>
+                   <div class="news-1-content">
+                       <p>市场预期生变 一二线楼市政策继续收紧</p>
+                       <p>今年以来，随着信贷政策的适度放松以及各地“抢人大战”的延续，房地产市场出现明显升温。来自国家统计局发布的3月份70个大中城市住宅销售价格变动情况显示，3月份共有65个城市房价上涨，市场预期进一步生......</p>
+                   </div>
+
+               </a>
+               <a href="" class="new-1">
+                   <div class="news-1-img">
+                       <img src="../img/index/news-5-168-120.jpg" alt=""/>
+                   </div>
+                   <div class="news-1-content">
+                       <p>“限售令”城市，被“冻结”房源将陆续“解冻”。对各地楼市将产生怎样的影响？</p>
+                       <p>房屋限售是楼市调控的主要手段之一，针对对象是炒房客的房屋转卖行为，规定当地购房者在交易成功之后，几年之内不允许再次转卖。对于炒房客来说，囤房并不是盈利的关键，房子能够转卖出去才算是真正获利，否则房子也......</p>
+                   </div>
+
+               </a>
+               <a href="" class="new-1">
+                   <div class="news-1-img">
+                       <img src="../img/index/news-6-168-120.jpg" alt=""/>
+                   </div>
+                   <div class="news-1-content">
+                       <p>买房就买地铁房，但你真的了解什么是地铁房吗？不看你会后悔啊！</p>
+                       <p>地铁一响黄金万两，所以越来越多的购房者热衷于地铁房。尤其是在一二线城市，地铁不仅意味着升值，更方便了日常生活和工作。现在大城市的很多年轻人，为了生活为了梦想，每天在城市的各个区域穿梭，上班下班一般都要......</p>
+                   </div>
+               </a>
+           </div>
+       </div>
+   </aside>
+    <footer>
+        <div class="footer">
+            <div  class="footer-content width">
+                <div class="footer-top">
+                    <div>
+                        <img src="../img/index/footer-logo.png" alt="" style="width:67px;"/>
+                    </div>
+                    <ul class="footer-top-content" style="list-style: none;">
+                        <li><a href="">关于我们</a></li>
+                        <li><a href="">新闻资讯</a></li>
+                        <li><a href="">视频中心</a></li>
+                        <li><a href="">个人房源</a></li>
+                        <li><a href="">中介精推</a></li>
+                        <li><a href="">优质房源</a></li>
+                        <li><a href="">新房直卖</a></li>
+                        <li><a href="">首页</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-middle width">
+                <div class="middle">
+                    <div class="midlle-left-top">
+                        <img src="../img/index/footer-phone.png" alt=""/>
+                        <span style="font-size:12px;margin-right:5px;">客服热线</span><span style="font-size:18px;">400-0052-533</span>
+                        <p>地理位置</p>
+                        <p>上海市嘉定区南翔镇银翔路799号15层</p>
+                        <p>座机电话：021-69910096</p>
+                    </div>
+                    <div class="middle-center">
+                        <div class="center-text">
+                            <ul style="list-style:none;margin-bottom:0px">
+                                <li><a href="">开发商/中介</a></li>
+                                <li><a href="">开店协议</a></li>
+                                <li><a href="">账号注册</a></li>
+                                <li><a href="">认证/发布流程</a></li>
+                                <li><a href="">图片视频上传规则</a></li>
+                            </ul>
+                        </div>
+                        <div class="center-text">
+                            <ul style="list-style:none;margin-bottom:0px">
+                                <li><a href="">用户专区</a></li>
+                                <li><a href="">账号注册</a></li>
+                                <li><a href="">评论规则</a></li>
+                                <li><a href="">消费者协议保障</a></li>
+                                <li><a href="">用户服务声明</a></li>
+                            </ul>
+                        </div>
+                        <div class="center-text">
+                            <ul style="list-style:none;margin-bottom:0px">
+                                <li><a href="">预约订购</a></li>
+                                <li><a href="">预约流程</a></li>
+                                <li><a href="">下订流程</a></li>
+                                <li><a href="">退订流程</a></li>
+                                <li><a href="">专车看房流程</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="middle-right">
+                        <div>
+                            <img src="../img/index/right-1.png" alt=""/>
+                            <a href="">问卷调查</a>
+                        </div>
+                        <div>
+                            <img src="../img/index/right-2.jpg" alt=""/>
+                            <a href="">APP下载</a>
+                        </div>
+                        <div>
+                            <img src="../img/index/right-3.png" alt=""/>
+                            <a href="">微信公众号</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-botttom width">
+                <p>版权所有：上海柏钞网络科技有限公司</p>
+                <p><a href="">沪ICP备17032006号-1</a></p>
+                <p>贵州分公司授权</p>
+                <p>安徽分公司授权</p>
+            </div>
+        </div>
+    </footer>
+
+   <script src="../js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!-- 设置视口-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- 导入css-->
+    <link rel="stylesheet" href="../css/header.css"/>
+    <link rel="stylesheet" href="../css/comm.css"/>
+</head>
+<body>
+<!-- 头部的创建-->
+<div>
+    <header>
+        <div class='header-top '>
+            <p class="header-top-content width">
+                <span>欢迎来到贵上房官网</span>
+                <span class="header-t-s1">上海</span>
+                <span >切换城市</span>
+                <span class="header-t-s2">下载app</span>
+                <a href="" class="header-t-a">登录</a>
+                /<a href="" class="header-t-a">注册</a>
+                <span class="header-t-s3">咨询热线：400-0052-533</span>
+            </p>
+        </div>
+        <!-- 上半部分头部-->
+        <div class="header-bar width" id="tests">
+            <span class="bar-span" onclick="document.getElementsByClassName('header-bar')[0].style.display='none'">&times;</span>
+            <span class="bar-span" id="span1">展开</span>
+        </div>
+        <!-- 查询部分-->
+        <div  class="header-search width">
+            <div>
+                <img src="../img/index/log.png" alt="" style="height:64px"/>
+            </div>
+            <div class="header-search-content">
+                <div class="header-search-icon">
+                    <img src="../img/index/icon1.png" alt=""/>
+                </div>
+                <input type="text" placeholder="请输入楼盘名称或者区域" class="header-search-inp"/><button class="header-search-btn">搜索</button>
+                <div class="header-search-nav"><a href="">嘉定</a><a href="">宝山</a><a href="">青浦</a><a href="">虹口</a><a href="">松江</a><a
+                        href="">徐汇</a></div>
+            </div>
+        </div>
+    </header>
+</div>
+</body>
+</html>

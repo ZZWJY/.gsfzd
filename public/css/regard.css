@@ -1,0 +1,32 @@
+.nav-content{
+    background: #cc0000;
+    height:52px;
+    line-height:52px;
+}
+ul{
+    list-style:none
+}
+.nav-t{
+    list-style:none ;
+}
+.nav-t>li{
+    float:left;
+
+}
+.nav-t>li>a{
+    display:inline-block;
+    padding:0 1rem;
+    color:#fff;
+}
+.nav-t>li>a:hover{
+    opacity: 0.5;
+    text-decoration: none;
+}
+.nav-right{
+    float:right;
+    margin-right:2rem;
+}
+.nav-right a{
+    color:#fff;
+    font-size:14px;
+}
