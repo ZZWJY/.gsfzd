@@ -9,6 +9,9 @@
 .opacity-5{
   opacity: 0.5;
 }
+.left{
+  float:left;
+}
 .right{
   float: right;
 }

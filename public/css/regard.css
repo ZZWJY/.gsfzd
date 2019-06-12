@@ -30,3 +30,29 @@ ul{
     color:#fff;
     font-size:14px;
 }
+.regard-p{
+    margin:1rem 0;
+    font-size:20px;
+    text-align:center;
+    font-weight:bold;
+    position:relative;
+    left:35px;
+    letter-spacing: 3px;
+}
+.regard-content{
+    color:#666;
+}
+.regard-content p:first-child{
+    font-size:18px;
+    font-weight:bold;
+    margin:1rem 0 4rem 0;
+}
+.regard-content p+p{
+    line-height:25px;
+    margin-bottom:1rem;
+}
+.regard-bottom{
+    width:100%;
+    margin:1rem 0;
+    clear:both
+}
