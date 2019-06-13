@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body onload='search()'>
+	<button onclick='search()'>显示</button>
+	<table border='1px'>
+		<thead>
+			<tr>
+				<th>uid</th>
+				<th>uname</th>
+				<th>upwd</th>
+				<th>email</th>
+				<th>phone</th>
+				<th>avtar</th>
+				<th>user_name</th>
+				<th>gender</th>
+			</tr>
+		</thead>
+		<tbody id='tb'></tbody>
+	</table>
+	<script>
+		function search(){
+			var xhr=new XMLHttpRequest();
+			xhr.onreadystatechange=function(){
+				if(xhr.readyState==4&&xhr.status==200){
+					var result=xhr.responseText;
+					var res=JSON.parse(result)
+					for(var i=0;i<res.length;i++){
+					tb.innerHTML+=
+					` <tr>
+							<td>${res[i].uid}</td>
+							<td>${res[i].uname}</td>
+							<td>${res[i].upwd}</td>
+							<td>${res[i].email}</td>
+							<td>${res[i].phone}</td>
+							<td>${res[i].avatar}</td>
+							<td>${res[i].user_name}</td>
+							<td>${res[i].gender}</td>
+						</tr>
+					`
+					}
+				}
+		  }
+			xhr.open('get','http://127.0.0.1:8080/ajax/userlist',true)
+			xhr.send();
+		}
+	</script>
+</body>
+</html>
