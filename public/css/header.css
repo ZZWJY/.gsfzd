@@ -30,10 +30,10 @@
     height:70px;
 }
 .header-bar{
-    height:136px;
+    height:0px;
     background:url("../img/index/1.jpg") center;
     position:relative;
-    transition:0.5s;
+    transition:all 1s;
     overflow: hidden;
     margin:0 auto;
 }

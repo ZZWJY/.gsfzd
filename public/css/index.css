@@ -1,91 +1,4 @@
-/*头部的编写*/
-.header-top{
 
-    width: 100%;
-    min-width: 1200px;
-    height: 40px;
-    line-height: 40px;
-    font-size: 12px;
-    border-bottom: 1px solid #eceaeb;
-    background: rgba(246, 246, 246, 1);
-}
-.header-t-s1{
-    color:#c63030;
-    margin-left:1.5rem;
-}
-.header-t-s2{
-    margin:20rem;
-}
-.header-t-s3{
-    float:right;
-}
-.header-t-a{
-    color:#666;
-}
-.header-search{
-    padding:23px 0px;
-}
-.header-search>div{
-    float:left;
-    height:70px;
-}
-.header-bar{
-    height:136px;
-    background:url("../img/index/1.jpg") center;
-    position:relative;
-    transition:0.5s;
-    overflow: hidden;
-    margin:0 auto;
-}
-.header-bar>span:nth-child(1){
-    position:absolute;
-    top:-18px;
-    right:0px;
-    font-size:35px;
-    color:#fff;
-    cursor:pointer;
-}
-.header-bar>span:nth-child(2){
-    position:absolute;
-    bottom: 0px;
-    right:0px;
-    color:#fff;
-    font-size:14px;
-    cursor:pointer;
-}
-.header-search-inp{
-    width:400px;
-   height:40px;
-    outline:0;
-    border:2px solid #cc0000;
-    border-right:0;
-    padding-left:3rem;
-}
-.header-search-content {
-    margin-left: 180px;
-    position:relative;
-}
-.header-search-btn{
-    height:42px;
-    background:#cc0000;
-    color:#fff;
-    border: 0px;
-    width:4rem;
-}
-.header-search-nav>a{
-    color:#666;
-    margin:1rem;
-}
-.header-search-icon{
-    position:absolute;
-    top:7px;
-    left:15px;
-}
-.header-search:after{
-    content:'';
-    display:block;
-    clear:both;
-}
 /*标题部分的编写*/
 .nav-content{
     background: #cc0000;
@@ -117,11 +30,66 @@
     font-size:14px;
 }
 /*中间内容区域的编写*/
-.aside-carousel img{
+.aside-carousel>img{
     float:left;
+}
+.carousel{
+	width:580px;
+	height:400px;
+	overflow:hidden;
+	float:left;
+	position:relative;
+}
+.carouselleft,.carouselright{
+	display:inline-block;
+	position:absolute;
+	width:2rem;
+	height:100%;
+	color:#fff;
+	font-size:50px;	
+	line-height:400px;
+	cursor:pointer;
+}
+.caousel-nav{
+	position:absolute;
+	left:30%;
+	bottom:20px;
+	list-style:none;
+}
+.caousel-nav li{
+	width:30px;
+	height:10px;
+	margin-left:1rem;
+	float:left;
+	border:1px solid #fff;
+	background:#fff;
+	border-radius:50%;
+	cursor:pointer;
+}
+.caousel-nav .active{
+	background:#f00;
+}
+.carouselleft{
+	float:left;
+	top:0px;
+	left:0px;
+}
+.carouselright{
+	top:0px;
+	right:0px;
+}
+.carousel-imgs{
+	float:left;
+	width:3480px;
+}
+.carousel .transition{
+transition:all 1s linear
 }
 .aside-carousel{
     margin-top:1rem;
+}
+.carousel-imgs img{
+	float:left
 }
 .aside-carousel:after{
     content:"";

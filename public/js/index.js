@@ -1,9 +1,8 @@
-
+$(function(){
 
 		var i=0
 		var count=5;
 		var cimgs=$('.carousel-imgs')
-			console.log(cimgs)
 		function moveTO(to){
 			if(to==undefined){
 				to=i+1
@@ -29,13 +28,13 @@
 //					cimgs.attr("transition","");
 					cimgs.removeClass("transition")
 					cimgs.css('margin-left','0px');
+					$('.caousel-nav li').eq(0).addClass('active')
 					i=0;
 				},1000)
 			}
 			$('.caousel-nav li:eq('+i+')').addClass('active')
 		}
 		var flag=true;
-		console.log($('.caousel-nav li'))
 		function move(n){
 			if(flag){
 				moveTO(i+n);
@@ -60,19 +59,10 @@
 				moveTO()
 			},3000)
 		})
+		$('.caousel-nav').on('click','li',function(){
+				var $li=$(this);			
+				$li.addClass('active').siblings().removeClass('active')
+					moveTO($li.index())	
+		})
 	
-	
-		span1.onclick= function (){
-			var opens=document.getElementsByClassName('header-bar')[0];
-			var ss=document.getElementsByClassName('bar-span')[1];
-			if(getComputedStyle(opens).height=='136px'){
-				opens.style.background="url('../img/index/2.jpg')"
-				opens.style.height='250px';
-				ss.innerHTML='收缩';
-
-			}else{
-				opens.style.background="url('../img/index/1.jpg')";
-				opens.style.height='136px';
-				ss.innerHTML='展开';
-			}
-		}
+})
